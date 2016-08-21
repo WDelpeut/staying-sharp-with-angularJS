@@ -1,0 +1,47 @@
+<!-- 1:38:00 -->
+<!DOCTYPE html>
+<html ng-app="NoteWrangler">
+<head>
+	<title>Note Wrangler</title>
+	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.css" >
+	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap-theme.css" >
+</head>
+<body>
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<div class="navbar-brand">
+				<a href="/#/">NoteWrangler</a>
+			</div>
+		</div>
+		<nw-page-nav></nw-page-nav>
+	</div>
+</nav>
+<div ng-view class="container-fluid"></div>
+</body>
+<!-- vendor -->
+<script type="text/javascript" src="assets/javascript/vendor/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="assets/javascript/vendor/angular.js"></script>
+<script type="text/javascript" src="assets/javascript/vendor/angular-route.js"></script>
+<script type="text/javascript" src="assets/javascript/vendor/angular-resource.js"></script>
+
+<!-- App -->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+<script type="text/javascript" src="assets/javascript/routes.js"></script>
+
+<!-- Directives -->
+<script type="text/javascript" src="assets/javascript/directives/nw-page-nav.js"></script>
+
+<!-- Controllers -->
+<script type="text/javascript" src="assets/javascript/controllers/noteCreateController.js"></script>
+<script type="text/javascript" src="assets/javascript/controllers/noteEditController.js"></script>
+<script type="text/javascript" src="assets/javascript/controllers/noteIndexController.js"></script>
+<script type="text/javascript" src="assets/javascript/controllers/noteShowController.js"></script>
+<script type="text/javascript" src="assets/javascript/controllers/userIndexController.js"></script>
+<script type="text/javascript" src="assets/javascript/controllers/userShowController.js"></script>
+
+<!-- Services -->
+<script type="text/javascript" src="assets/javascript/services/noteService.js"></script>
+<script type="text/javascript" src="assets/javascript/services/userService.js"></script>
+<script type="text/javascript" src="assets/javascript/services/categoryService.js"></script>
+</html>
