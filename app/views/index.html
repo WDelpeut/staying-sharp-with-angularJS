@@ -1,4 +1,4 @@
-<!-- 1:38:00 -->
+<!-- 2:08:00 -->
 <!DOCTYPE html>
 <html ng-app="NoteWrangler">
 <head>
@@ -19,11 +19,15 @@
 </nav>
 <div ng-view class="container-fluid"></div>
 </body>
+
 <!-- vendor -->
 <script type="text/javascript" src="assets/javascript/vendor/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="assets/javascript/vendor/angular.js"></script>
 <script type="text/javascript" src="assets/javascript/vendor/angular-route.js"></script>
 <script type="text/javascript" src="assets/javascript/vendor/angular-resource.js"></script>
+<script type="text/javascript" src="assets/javascript/vendor/bootstrap.js"></script>
+<script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+<script type="text/javascript" src="assets/javascript/vendor/wdGravatar.js"></script>
 
 <!-- App -->
 <script type="text/javascript" src="assets/javascript/app.js"></script>
@@ -31,6 +35,8 @@
 
 <!-- Directives -->
 <script type="text/javascript" src="assets/javascript/directives/nw-page-nav.js"></script>
+<script type="text/javascript" src="assets/javascript/directives/nw-category-selector.js"></script>
+<script type="text/javascript" src="assets/javascript/directives/title.js"></script>
 
 <!-- Controllers -->
 <script type="text/javascript" src="assets/javascript/controllers/noteCreateController.js"></script>
@@ -39,6 +45,9 @@
 <script type="text/javascript" src="assets/javascript/controllers/noteShowController.js"></script>
 <script type="text/javascript" src="assets/javascript/controllers/userIndexController.js"></script>
 <script type="text/javascript" src="assets/javascript/controllers/userShowController.js"></script>
+
+<!-- Filters -->
+<script type="text/javascript" src="assets/javascript/filters/categoryFilter.js"></script>
 
 <!-- Services -->
 <script type="text/javascript" src="assets/javascript/services/noteService.js"></script>

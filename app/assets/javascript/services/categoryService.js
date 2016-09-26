@@ -5,6 +5,6 @@
 *
 * Description
 */
-angular.module('NoteWrangler').factory('categoryService', function($resource) {
+angular.module('NoteWrangler').factory('CategoryService', function($resource) {
 	return $resource('/categories/:id');
 })

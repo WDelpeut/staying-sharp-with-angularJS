@@ -10,7 +10,6 @@ angular.module('NoteWrangler').directive('nwPageNav', function(){
 		templateUrl: "assets/templates/directives/nw-page-nav.html",
 		controller: function($scope, $location){
 			$scope.currentPage = function(name) {
-				// /\/notes($|\/)/
 				return new RegExp("/" + name + "($|/)").test($location.path());
 			};
 		}
